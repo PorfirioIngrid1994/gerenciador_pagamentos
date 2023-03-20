@@ -1,0 +1,20 @@
+print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+print('Bem-vindo ao gerenciador de pagamentos!')
+print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+
+print('Selecione a opção de pagamento:')
+
+opcao = input('1 - Pix\op2 - Débito\op3- A vista\op4 - Crédito\op5 - Dinheiro\n')
+
+if opcao == '1'
+    print('Pagamento em Pix')
+elif opcao == '2':
+    print('Pagamento em Débito')
+elif opcao == '3':
+    print('Pagamento à vista')
+elif opcao == '4':
+    print('Pagamento em Crédito')
+elif opcao == '5':
+    print('Pagamento em Dinheiro')
+else:
+    print('Opção inválida')
